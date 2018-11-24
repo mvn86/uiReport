@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+      layout:decorator="layout/layout">
+<meta charset="UTF-8">
+<title>index html</title>
+<body>
+<div layout:fragment="content" class="main-content">
+    <div class="main-content">
+        <div class="main-content-inner">
+            <div class="page-content">
+                <div class="page-header">
+                    <h1>
+                        Tables
+                        <small>
+                            <i class="ace-icon fa fa-angle-double-right"></i>
+                            Static &amp; Dynamic Tables
+                        </small>
+                    </h1>
+                </div><!-- /.page-header -->
+
+                <div class="row">
+                    <div class="col-xs-12">
+                        <!-- PAGE CONTENT BEGINS -->
+                        <div id="modal-table" class="modal fade" tabindex="-1">
+                            <table id="simple-table" class="table  table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <th class="center">
+                                        <label class="pos-rel">
+                                            <input type="checkbox" class="ace" />
+                                            <span class="lbl"></span>
+                                        </label>
+                                    </th>
+                                    <th class="detail-col">Details</th>
+                                    <th>Domain</th>
+                                    <th>Price</th>
+                                    <th class="hidden-480">Clicks</th>
+
+                                    <th>
+                                        <i class="ace-icon fa fa-clock-o bigger-110 hidden-480"></i>
+                                        Update
+                                    </th>
+                                    <th class="hidden-480">Status</th>
+
+                                    <th></th>
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- PAGE CONTENT ENDS -->
+                    </div><!-- /.col -->
+                </div><!-- /.row -->
+            </div><!-- /.page-content -->
+        </div>
+    </div><!-- /.main-content --></div>
+
+<script language="JavaScript">
+  $(function(){
+    console.log("123456");
+  });
+</script>
+</body>
+</html>
