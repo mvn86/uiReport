@@ -15,13 +15,24 @@ import java.util.Map;
 
 public class ReadSaxHandler extends DefaultHandler {
 
-    // 文档解析后数据存放
+    /**
+     * 文档解析后数据存放
+     */
     public final Map<CmGroup, List<CmCase>> groupCaseListMap = new HashMap<>();
-    // 存储 case 集合
+
+    /**
+     * 存储 case 集合
+     */
     private List<CmCase> caseList = new ArrayList<>();
-    // 定义group 对象
+
+    /**
+     * 定义group 对象
+     */
     private CmGroup cmGroup;
-    // 定义case 对象
+
+    /**
+     * 定义case 对象
+     */
     private CmCase cmCase;
 
     private Logger logger = LoggerFactory.getLogger(ReadSaxHandler.class);

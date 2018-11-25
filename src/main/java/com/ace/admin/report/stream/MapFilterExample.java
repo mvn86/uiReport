@@ -5,6 +5,11 @@ import java.util.Map;
 
 import static java.util.stream.Collectors.joining;
 
+/**
+ * map stream 使用
+ *
+ * @author Chris
+ */
 public class MapFilterExample {
 
     public static void main(String[] args) {
