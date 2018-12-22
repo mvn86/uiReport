@@ -20,7 +20,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Created by yuchao on 2017/7/27.
+ *
+ * @author chris
+ * @date 2017/7/27
  */
 @Controller
 public class FileUploadController {

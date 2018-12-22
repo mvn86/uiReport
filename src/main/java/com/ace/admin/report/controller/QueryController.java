@@ -13,7 +13,9 @@ import java.util.List;
 import static java.util.stream.Collectors.toList;
 
 /**
- * Created by yuchao on 2017/8/27.
+ *
+ * @author chris
+ * @date 2017/8/27
  */
 @RestController
 @RequestMapping("/query")

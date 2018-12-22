@@ -23,15 +23,18 @@ import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
 import java.util.stream.Stream;
 
+/**
+ * @author Chris
+ */
 @Service
-public class FileSystemStorageService implements StorageService {
+public class FileSystemStorageServiceImpl implements StorageService {
 
-    private Logger logger = LoggerFactory.getLogger(FileSystemStorageService.class);
+    private Logger logger = LoggerFactory.getLogger(FileSystemStorageServiceImpl.class);
 
     private final Path rootLocation;
 
     @Autowired
-    public FileSystemStorageService(StorageProperties properties) {
+    public FileSystemStorageServiceImpl(StorageProperties properties) {
         this.rootLocation = Paths.get(properties.getLocation());
     }
 

@@ -1,6 +1,12 @@
 package com.ace.admin.report.exception;
 
+
+/**
+ * @author Chris
+ */
 public class StorageFileNotFoundException extends StorageException {
+
+    private static final long serialVersionUID = 7253378137393199852L;
 
     public StorageFileNotFoundException(String message) {
         super(message);

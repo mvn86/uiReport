@@ -8,6 +8,7 @@ import java.util.stream.Stream;
 
 /**
  * 文件存储service
+ * @author Chris
  */
 public interface StorageService {
 

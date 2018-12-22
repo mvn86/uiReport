@@ -2,6 +2,9 @@ package com.ace.admin.report.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+/**
+ * @author Chris
+ */
 @ConfigurationProperties("storage")
 public class StorageProperties {
 

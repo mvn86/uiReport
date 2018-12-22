@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 
+/**
+ * @author Chris
+ */
 @Controller
 public class WelcomeController {
 

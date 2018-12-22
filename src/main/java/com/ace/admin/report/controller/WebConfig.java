@@ -6,7 +6,9 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 /**
  * 允许跨站请求
- * Created by yuchao on 2017/10/17.
+ *
+ * @author chris
+ * @date 2017/10/17
  */
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
